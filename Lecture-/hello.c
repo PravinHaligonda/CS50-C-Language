@@ -3,6 +3,6 @@
 
 int main(void)
 {
-    char c = get_char("Enter your name: ");
-    printf("Output: %c.\n", c);
+    long l = get_long("Enter your name: ");
+    printf("Hello,  %li.\n", l);
 }
