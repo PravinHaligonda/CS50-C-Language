@@ -11,7 +11,7 @@ int main(void)
     {
         printf("X is smaller that y.\n");
     }
-    else if (x == y)
+    else 
     {
         printf("X is equal to y.\n");
     }
