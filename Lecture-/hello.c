@@ -3,5 +3,6 @@
 
 int main(void)
 {
-    printf("Hello, World\n");
+    char c = get_char("Enter your name: ");
+    printf("Output: %c.\n", c);
 }
