@@ -4,4 +4,14 @@
 int main(void)
 {
     int x = get_int("What's x?");
+    int y = get_int("What's y?");
+
+    if (x > y)
+    {
+        printf("X is greater than y.\n");
+    }
+    else
+    {
+        printf("X is greater than y.\n");
+    }
 }
