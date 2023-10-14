@@ -10,3 +10,13 @@ int main(void)
         i++;
     }
 }
+
+// For Loop
+
+int for_loop(void)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        printf("Meow\n");
+    }
+}
