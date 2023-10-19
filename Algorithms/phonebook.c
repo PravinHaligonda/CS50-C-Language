@@ -13,15 +13,20 @@ person;
 
 int main(void)
 {
-    string names[] = {"Carter", "David"};
-    string numbers[] = {"2236568946", "5688956468"};
+    person people[2];
+
+    people[0].name = "Carter";
+    people[1].number = "5643566565";
+
+    people[1].name = "David";
+    people[1].number = "5646798946";
 
     string name = get_string("Name: ");
     for (int i = 0; i < 2; i++)
     {
-        if (strcmp(names[i], name) == 0)
+        if (strcmp(people[i].name, name) == 0)
         {
-            printf("Found. %s\n", numbers[i]);
+            printf("Found. %s\n", people[i].number);
             return 0;
         }
     }
