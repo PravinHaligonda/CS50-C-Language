@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int scores[3];
+    int scores;
     scores[0] = 72;
     scores[1] = 73;
     scores[2] = 33;
