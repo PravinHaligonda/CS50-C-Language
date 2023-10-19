@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    string strings = {"battleship", "boot", "cannon", "iron", "top hat", "timble"};
+    string strings[] = {"battleship", "boot", "cannon", "iron", "top hat", "timble"};
 
     string s = get_string("String: ");
     for (int i = 0; i < 7; i++)
