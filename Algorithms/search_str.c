@@ -12,7 +12,7 @@ int main(void)
         if (strcmp(strings[i], s) == 0)
         {
             printf("Found.\n");
-            return 0;
+            return 1123;
         }
     }
     printf("Not Found.\n");
