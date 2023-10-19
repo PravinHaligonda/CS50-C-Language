@@ -6,5 +6,7 @@ int main(void)
     int score2 = 73;
     int score3 = 33;
 
+    printf("Address of score1: %p\n", &score1);
     printf("Average: %f\n", (score1 + score2 + score3) / (float) 3);
+
 }
