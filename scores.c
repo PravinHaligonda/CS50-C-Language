@@ -1,12 +1,8 @@
 #include <stdio.h>
+#include <cs50.h>
 
 int main(void)
 {
-    int scores[3];
-    scores[0] = 72;
-    scores[1] = 73;
-    scores[2] = 33;
-
-    printf("Average: %i\n", (scores[] / 3));
-
+    string s = "HI!";
+    printf("%i %i %i %i\n", s[0], s[1], s[2], s[3]);
 }
