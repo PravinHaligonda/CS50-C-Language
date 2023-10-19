@@ -4,5 +4,6 @@
 
 int main(void)
 {
-    string
+    string names[] = {"Carter", "David"};
+    int numbers[] = 
 }
