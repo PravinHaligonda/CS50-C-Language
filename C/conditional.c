@@ -9,8 +9,16 @@ int main(void)
     {
         printf("X is greater than y\n");
     }
-    else
+    else if (x < y)
     {
         printf("X is smaller that y\n");
+    }
+    else if (x == y)
+    {
+        printf("X is equal to y\n");
+    }
+    else
+    {
+        
     }
 }
