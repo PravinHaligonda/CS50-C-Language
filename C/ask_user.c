@@ -4,6 +4,8 @@
 int main(void)
 {
     string name = get_string("Enter your name: ");
-    printf("Your name: %s\n", name);
+    int age = get_int("Enter your age: ");
+    printf("Hello, %s\n", name);
+    printf("%s is %i years old!\n", name, age);
     return 0;
 }
