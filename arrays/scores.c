@@ -66,11 +66,12 @@ int main(void)
 
 int main(void)
 {
-    int scores[3];
+    int N = 3;
+    int scores[N];
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < N; i++)
     {
         scores[i] = get_int("Score: ");
     }
-    printf("Average: %.4f\n", (scores[0] + scores[1] + scores[3]) / 3)
+    printf("Average: %f\n", (scores[0] + scores[1] + scores[2]) / (float) N);
 }
