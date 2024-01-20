@@ -31,6 +31,9 @@ int main(void)
 }
 */
 
+/*
+// Version: 3
+// Problem: repeating scores variable.
 int main(void)
 {
     int scores[3];
@@ -41,4 +44,33 @@ int main(void)
 
     printf("Average: %.4f\n", (scores[0] + scores[1] + scores[2]) / 3.0);
 
+}
+*/
+
+
+/*
+// Version: 4
+// Problem: Using hard coded values
+int main(void)
+{
+    int scores[3];
+
+    for (int i = 0; i < 3; i++)
+    {
+        scores[i] = get_int("Score: ");
+    }
+    printf("Average: %.4f\n", (scores[0] + scores[1] + scores[2]) / 3.0);
+}
+*/
+
+
+int main(void)
+{
+    int scores[3];
+
+    for (int i = 0; i < 3; i++)
+    {
+        scores[i] = get_int("Score: ");
+    }
+    printf("Average: %.4f\n", (scores[0] + scores[1] + scores[3]) / 3)
 }
