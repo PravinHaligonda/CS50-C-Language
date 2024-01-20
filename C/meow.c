@@ -3,16 +3,7 @@
 int main(void)
 {
     int i = 3;
-    while (i > 0)
-    {
-        printf("Meow\n");
-        i--;
-    }
-}
-
-int for()
-{
-    for (i = 0; i < 3; i++;)
+    while (i < 3)
     {
         printf("meow\n");
     }
