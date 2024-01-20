@@ -41,7 +41,7 @@ int main(void)
         }
         else
         {
-            printf("Cannot be divided by zero.");
+            printf("Cannot be divided by zero. \n");
         }
 
 
