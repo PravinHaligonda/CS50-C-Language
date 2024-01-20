@@ -11,10 +11,10 @@ int main(void)
 {
     int x = get_int("X: ");
     int y = get_int("Y: ");
-    printf("['add' or '+']");
-    printf("['sub' or '-']");
-    printf("['mul' or '*']");
-    printf("['div' or '/']");
+    printf("['add' or '+']\n");
+    printf("['sub' or '-']\n");
+    printf("['mul' or '*']\n");
+    printf("['div' or '/']\n");
     string op = get_string("Operation to perform: ");
 
     if (strcmp(op, "add") == 0 || strcmp(op, "+") == 0)
