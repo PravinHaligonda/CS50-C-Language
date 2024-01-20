@@ -9,3 +9,11 @@ int main(void)
         i--;
     }
 }
+
+int for()
+{
+    for (i = 0; i < 3; i++;)
+    {
+        printf("meow\n");
+    }
+}
