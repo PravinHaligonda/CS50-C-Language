@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <sting.h>
 
 int add(int a, int b);
 int sub(int a, int b);
 int mul(int a, int b);
-int div(int a, int b);
+int divison(int a, int b);
 
 int main(void)
 {
@@ -16,21 +17,21 @@ int main(void)
     printf("['div' or '/']");
     string op = get_string("Operation to perform: ");
 
-    if (op == 'add' || op == '+')
+    if (strcmp(op, 'add') == 0 || strcmp(op, '+') == 0)
     {
         int z = add(x, y);
         printf("Addition of %i and %i: %i\n", x, y, z);
-    } else if (op == 'sub' || op == '-')
+    } else if (strcmp(op, 'sub') == 0 || strcmp(op, '-') == 0)
     {
         int z = sub(x, y);
         printf("Substraction of %i and %i: %i\n", x, y, z);
-    } else if (op == 'sub' || op == '-')
+    } else if (strcmp(op, 'mul') == 0 || strcmp(op, '*') == 0)
     {
         int z = mul(x, y);
         printf("Multiplication of %i and %i: %i\n", x, y, z);
-    } else if (op == 'sub' || op == '-')
+    } else if (strcmp(op, 'div') == 0 || strcmp(op, '/') == 0)
     {
-        int z = div(x, y);
+        int z = divison(x, y);
         printf("Division of %i and %i: %i\n", x, y, z);
     } else
     {
@@ -57,7 +58,7 @@ int mul(int a, int b)
 }
 
 // Division
-int div(int a, int b)
+int divison(int a, int b)
 {
     return a / b;
 }
