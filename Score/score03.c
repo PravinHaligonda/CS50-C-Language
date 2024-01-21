@@ -11,3 +11,10 @@ int main(void)
     }
     printf("Average: %f\n", (scores[0] + scores[1] + scores[2]) / 3.0);
 }
+
+// Problem:
+/*
+
+Hard coded values
+
+*/
