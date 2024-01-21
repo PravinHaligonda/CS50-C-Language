@@ -8,3 +8,11 @@ int main(void)
 }
 
 /* It is like go to the address of n and tell me what is there. */
+
+
+int nv01(void)
+{
+    int n = 50;
+    int *p = &n;
+    printf("N: %i\n", *p);
+}
