@@ -13,6 +13,7 @@ int main(void)
     {
         if (strcmp(names[i], name) == 0)
         {
+            printf("Number: %s\n", numbers[i]);
             printf("Found\n");
             return 0;
         }
