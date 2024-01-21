@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int N = 3;
+    consint N = 3;
     int scores[N];
 
     for (int i = 0; i < N; i++)
