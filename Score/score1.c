@@ -8,3 +8,8 @@ int main(void)
 
     printf("Average: %f\n", (score1 + score2 + score3) / 3.0);
 }
+
+// Problem:
+/*
+If I want to store the multiple values 
+*/
