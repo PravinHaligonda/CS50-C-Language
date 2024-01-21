@@ -26,9 +26,9 @@ int main(void)
     string name = get_string("Name: ");
     for (int i = 0; i < 3; i++)
     {
-        if (strcmp(name[i], name) == 0)
+        if (strcmp(people[i].name, name) == 0)
         {
-            printf("Number: %s\n", number[i]);
+            printf("Number: %s\n", people[i].number);
             printf("Found\n");
             return 0;
         }
