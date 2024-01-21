@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int nv01(void);
+int nv01(int);
 
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 /* It is like go to the address of n and tell me what is there. */
 
 
-int nv01(vo)
+int nv01(int n)
 {
     int n = 50;
     int *p = &n;
