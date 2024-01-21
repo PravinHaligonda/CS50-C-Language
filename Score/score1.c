@@ -12,4 +12,6 @@ int main(void)
 // Problem:
 /*
 
+Complexity of variable grows by N. As N grow.
+
 */
