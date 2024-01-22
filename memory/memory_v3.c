@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-typedef *char string;
+typedef int integer;
+typedef char string;
 
 int main(void)
 {
-    string s = "Hello";
-    printf("%s\n", s);
+    string h = "Hello";
+    printf("%s\n", h);
+    integer s = 6;
+    printf("%i\n", s);
 }
