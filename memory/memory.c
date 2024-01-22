@@ -16,3 +16,4 @@ int main(void)
     int *p = &n;
     printf("N: %i\n", *p);
 }
+
