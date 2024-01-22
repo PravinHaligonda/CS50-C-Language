@@ -6,7 +6,7 @@ typedef char string;
 int main(void)
 {
     string h = "H";
-    printf("%c\n", h);
+    printf("%c.\n", h);
     integer s = 6;
     printf("%i\n", s);
 }
