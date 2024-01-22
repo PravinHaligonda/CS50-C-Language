@@ -10,10 +10,32 @@ int main(void)
 */
 /* It is like go to the address of n and tell me what is there. */
 
+/*
 int main(void)
 {
     int n = 50;
     int *p = &n;
     printf("N: %i\n", *p);
 }
+*/
 
+// String == * char
+
+string strin(void);
+
+int main(void)
+{
+    char *s = "Hi!";
+    printf("%s\n", s);
+    strin();
+}
+
+string strin(void)
+{
+    char *greet = "Hello";
+    printf("%p\n", &greet[0])
+    printf("%p\n", &greet[1])
+    printf("%p\n", &greet[2])
+    printf("%p\n", &greet[3])
+    printf("%p\n", &greet[4])
+}
