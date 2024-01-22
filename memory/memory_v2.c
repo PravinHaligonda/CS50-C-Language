@@ -3,6 +3,7 @@
 int main(void)
 {
     char *greet = "Hello";
+    printf("%s\n", greet);
     printf("%p\n", &greet[0]);
     printf("%p\n", &greet[1]);
     printf("%p\n", &greet[2]);
