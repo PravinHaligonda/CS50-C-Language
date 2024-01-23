@@ -4,12 +4,12 @@
 
 int main(void)
 {
-    string s = get_string("S: %s\n", s);
+    string s = get_string("S: ");
 
     string t = s;
-
-    printf("t[0]: %c\n", t[0]);
-    printf("S: %s\n", s);
-    printf("t: %s\n", t);
+    printf("S: %c\n", s[0]);
+    printf("S's Address: %p\n", &s[0]);
+    printf("T: %c\n", t[0]);
+    printf("T's Address: %p\n", &t[0]);
 
 }
