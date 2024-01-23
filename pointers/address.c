@@ -1,8 +1,10 @@
 #include <stdio.h>
-#include <cs50.h>
 
 int main(void)
 {
+    // This behaves like a string.
     char *s = "Pravin";
-    printf(")
+    printf("%s\n", s);
+
+    
 }
