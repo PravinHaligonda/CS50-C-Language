@@ -3,8 +3,8 @@
 
 typedef struct
 {
-    string fname;
-    string lname;
+    char *fname;
+    char *lname;
 }
 fullname;
 
