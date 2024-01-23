@@ -6,5 +6,5 @@ int main(void)
     int p = 13;
     int* a = &p;
 
-    printf("A: %i\n", a);
+    printf("A: %d\n", *a);
 }
