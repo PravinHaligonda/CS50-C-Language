@@ -13,3 +13,13 @@ int main(void)
 // Solution:
 
 int garbage(void)
+{
+    int *x;
+    int *y;
+
+    int *x = malloc(sizeof(int));
+    int *x = 42;
+    int *y = 13;
+
+    int 
+}
