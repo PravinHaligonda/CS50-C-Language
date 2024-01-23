@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <cs50.h>
 
 int main(void)
 {
+    string name = get_string("Enter your name: ");
     // This behaves like a string.
-    char *s = "Pravin";
-    printf("%s\n", s);
+    char *s = &name;
+    printf("%s\n", *s);
 
-    
+
 }
