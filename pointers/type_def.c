@@ -10,10 +10,10 @@ fullname;
 
 int main(void)
 {
-    string fullname[3];
+    fullname fn;
 
-    fullname[0].fname = "Pravin";
-    fullname[0].lname = "Haligonda";
+    fn.fname = "Pravin";
+    fn.lname = "Haligonda";
 
-    printf("Fullname: )
+    printf("Fullname: %s %s\n", fn.fname, fn.lname);
 }
