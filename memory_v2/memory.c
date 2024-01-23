@@ -3,9 +3,10 @@
 
 int main(void)
 {
-    int n = malloc(3 * sizeof(int));
+    int *n = malloc(3 * sizeof(int));
 
     n[0] = 72;
     n[1] = 73;
     n[2] = 33;
+    
 }
