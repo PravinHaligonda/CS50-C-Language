@@ -6,19 +6,24 @@
 
 int main(void)
 {
+    // Taking inputs from the user.
     char *s = get_string("s: ");
 
+    
     char *t = malloc(strlen(s) + 1);
+
 
     for (int i = 0, n = strlen(s); i <= n; i++)
     {
         t[i] = s[i];
     }
 
+
     if (strlen(t) > 0)
     {
         t[0] = toupper(t[0]);
     }
+
 
     printf("S: %s\n", s);
     printf("T: %s\n", t);
