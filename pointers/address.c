@@ -3,10 +3,7 @@
 
 int main(void)
 {
-    string name = get_string("Enter your name: ");
     // This behaves like a string.
-    char *s = &name;
-    printf("%s\n", *s);
-
-
+    char *s = get_string("Enter your name: ");
+    printf("%s\n", s);
 }
