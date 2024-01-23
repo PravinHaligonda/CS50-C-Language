@@ -12,6 +12,8 @@ int main(void)
 {
     fullname fn;
 
+    
+
     fn.fname = "Pravin";
     fn.lname = "Haligonda";
 
