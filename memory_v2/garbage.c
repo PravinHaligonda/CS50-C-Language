@@ -21,14 +21,9 @@ int garbage(void)
     int *x;
     int *y;
 
-    x = malloc(sizeof(int));
-    *x = 42;
-    // int *y = 13;
+    x = 13;
+    y = 14;
 
-    x = y;
-
-    *y = 13;
-
-    printf("X: %i\n", x);
-    printf("y: %i\n", y);
+    printf("X: %i\n", &x);
+    printf("y: %i\n", &y);
 }
