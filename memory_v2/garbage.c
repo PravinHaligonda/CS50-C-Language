@@ -4,7 +4,7 @@
 int main(void)
 {
     int p = 13;
-    int *a = &p;
+    int* a = &p;
 
     printf("A: %i\n", a);
 }
