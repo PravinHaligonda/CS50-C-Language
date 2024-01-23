@@ -10,6 +10,7 @@ int main(void)
     char *s = get_string("s: ");
     if (s == NULL)
     {
+        // return false when the input is outof memory.
         return 1;
     }
 
@@ -17,6 +18,7 @@ int main(void)
     char *t = malloc(strlen(s) + 1);
     if (t == NULL)
     {
+        // return false when the input is outof memory.
         return 1;
     }
 
@@ -38,4 +40,7 @@ int main(void)
     printf("S: %p\n", &s);
     printf("T: %s\n", t);
     printf("T: %p\n", &s);
-    }
+
+    // You have to free the memory after using the malloc.
+    free(t);
+}
