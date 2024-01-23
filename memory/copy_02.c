@@ -8,15 +8,24 @@ int main(void)
 {
     // Taking inputs from the user.
     char *s = get_string("s: ");
+    if (s == NULL)
+    {
+        return 1;
+    }
 
     // Allocate the memory for variable t.
     char *t = malloc(strlen(s) + 1);
+    if (t == NULL)
+    {
+        return 1;
+    }
 
     // copy every character in var s and '0\n' null character.
-    for (int i = 0, n = strlen(s); i <= n; i++)
-    {
-        t[i] = s[i];
-    }
+    // for (int i = 0, n = strlen(s); i <= n; i++)
+    // {
+    //     t[i] = s[i];
+    // }
+    strcpy(s, t);
 
     // Check for valid input length.
     if (strlen(t) > 0)
