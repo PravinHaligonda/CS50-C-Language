@@ -8,5 +8,5 @@ int main(void)
     n[0] = 72;
     n[1] = 73;
     n[2] = 33;
-    
+    free(n);
 }
