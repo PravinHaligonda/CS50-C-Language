@@ -6,6 +6,7 @@ typedef struct
     char *fname;
     char *lname;
     int year;
+    // Give me the datatype called fullname that actually this structure.
 }
 fullname;
 
