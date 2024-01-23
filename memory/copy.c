@@ -8,9 +8,7 @@ int main(void)
 
     string t = s;
 
-    t[0] = toupper(t[0]);
-
-
+    printf("t[0]: %c\n", t[0]);
     printf("S: %s\n", s);
     printf("t: %s\n", t);
 
