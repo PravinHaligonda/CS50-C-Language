@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int garbage(void);
 
@@ -20,12 +21,14 @@ int garbage(void)
     int *x;
     int *y;
 
-    int x = malloc(sizeof(int));
-    int x = 42;
+    x = malloc(sizeof(int));
+    *x = 42;
     // int *y = 13;
 
-    int x = y;
+    x = y;
 
-    printf("X: %i\n", &x);
-    printf("y: %i\n", &y);
+    *y = 13;
+
+    printf("X: %i\n", x);
+    printf("y: %i\n", y);
 }
