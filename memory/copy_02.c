@@ -25,7 +25,7 @@ int main(void)
     // {
     //     t[i] = s[i];
     // }
-    strcpy(s, t);
+    strcpy(t, s);
 
     // Check for valid input length.
     if (strlen(t) > 0)
