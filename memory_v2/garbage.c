@@ -18,12 +18,8 @@ int main(void)
 
 int garbage(void)
 {
-    int *x;
-    int *y;
+    int n = 13;
+    int *x = &n;
 
-    x = 13;
-    y = 14;
-
-    printf("X: %i\n", &x);
-    printf("y: %i\n", &y);
+    printf("X: %i\n", x);
 }
