@@ -3,5 +3,6 @@
 
 int main(void)
 {
-    int s
+    int s = get_string("S: %s\n", s);
+    
 }
