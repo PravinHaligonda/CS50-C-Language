@@ -24,9 +24,10 @@ int main(void)
 
     printf("Fullname: %s %s\n", fn.fname, fn.lname);
     age(year);
+}
 
 int age(int n)
 {
-    printf("You are %i years old.", n);
+    printf("You are %i years old.\n", n);
     return 0;
 }
