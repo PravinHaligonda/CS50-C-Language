@@ -4,6 +4,14 @@ int main(void)
 {
     int n;
     printf("Number: ");
-    scanf("%i", n);
-    printf("Number: %i\n", &n);
+    scanf("%i", &n);
+    printf("Number: %i\n", n);
+}
+
+char *str(void)
+{
+    char *s;
+    printf("String: ");
+    scanf("%s", &s);
+    printf("String: )
 }
