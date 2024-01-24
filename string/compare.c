@@ -21,4 +21,11 @@ int main(void)
 int num(int a, int b)
 {
     if (a == b)
+    {
+        printf("Same.\n");
+    }
+    else
+    {
+        printf("Different.");
+    }
 }
