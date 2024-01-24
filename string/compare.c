@@ -29,12 +29,5 @@ int main(void)
 // For numbers
 int num(int n1, int n2)
 {
-    if (n1 == n2)
-    {
-        printf("Same.");
-    }
-    else
-    {
-        printf("Different.");
-    }
+    printf("N1 and N2: %i %i \n", n1, n2);
 }
