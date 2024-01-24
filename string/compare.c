@@ -6,9 +6,13 @@ int num(int n1, int n2);
 
 int main(void)
 {
-
+    printf("For Compare Strings.");
     char *a = get_string("A: ");
     char *b = get_string("B: ");
+
+    printf("For Compare Numbers");
+    int n1 = get_int("N1: ");
+    int n2 = get_int("N2: ");
 
     if (strcmp(a, b) == 0)
     {
@@ -18,13 +22,19 @@ int main(void)
     {
         printf("Different.\n");
     }
-    int n1 = 12;
-    int n2 = 13;
+
     printf("Numbers: %i\n", num(n1, n2));
 }
 
 // For numbers
 int num(int n1, int n2)
 {
-    return n1 + n2;
+    if (n1 == n2)
+    {
+        printf("Same.");
+    }
+    else
+    {
+        printf("Different.");
+    }
 }
