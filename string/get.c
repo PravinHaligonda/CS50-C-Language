@@ -12,6 +12,6 @@ int main(void)
 {
     char *s;
     printf("String: ");
-    scanf("%s", &s);
+    scanf("%s", s);
     printf("String: %s\n", s)
 }
