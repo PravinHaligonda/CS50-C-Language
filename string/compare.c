@@ -18,20 +18,13 @@ int main(void)
     {
         printf("Different.\n");
     }
-    n1 = 12;
-    n2 = 13;
-    num(n1, n2);
+    int n1 = 12;
+    int n2 = 13;
+    printf("Numbers: %i\n", num(n1, n2));
 }
 
 // For numbers
 int num(int n1, int n2)
 {
-    if (n1 == n2)
-    {
-        printf("Same.\n");
-    }
-    else
-    {
-        printf("Different.");
-    }
+    return n1 + n2;
 }
