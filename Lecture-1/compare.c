@@ -9,13 +9,16 @@ int main(void)
     if (x > y)
     {
         printf("X is greater than y.\n");
+        return 0;
     }
     else if (x < y)
     {
         printf("X is less than y.\n");
+        return 0;
     }
     else if (x == y)
     {
         printf("X is equal to y.\n");
+        return 0;
     }
 }
