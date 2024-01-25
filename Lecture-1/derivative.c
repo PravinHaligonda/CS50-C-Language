@@ -11,5 +11,5 @@ int main(void)
 
 float f(float x)
 {
-    return 3*x**2 - 4*x + 5;
+    return 3 * (x * x) - (4 * x) + 5;
 }
