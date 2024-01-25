@@ -3,5 +3,8 @@
 
 int main(void)
 {
-    int x = 
+    double x = 30;
+    double y = sin(x);
+    printf("X=(%f), Y=(%f)", x, y);
+    return 0;
 }
