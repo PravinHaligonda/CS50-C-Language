@@ -4,14 +4,15 @@
 
 int main(int argc, string argv[])
 {
-    count = 
+    int count = (argc - 1);
+    printf("%i\n", count);
     if (argc >= 2)
     {
-        printf("Hello, %s\n", argv[1]);
+        printf("Hello, %s\n", argv[count]);
     }
     else
     {
-        printf("Hello world\n");
+        printf("Hello, world");
+        return 0;
     }
-
 }
