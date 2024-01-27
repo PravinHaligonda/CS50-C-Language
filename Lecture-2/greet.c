@@ -2,14 +2,7 @@
 #include <cs50.h>
 #include <string.h>
 
-int main(int argc, string argv[])
+int main(int argc, char *argv[])
 {
-    if (strcmp(argv[1], '-h') == 0)
-    {
-        printf("We are here to help");
-    }
-    else
-    {
-        printf("Hello, world");
-    }
+    
 }
