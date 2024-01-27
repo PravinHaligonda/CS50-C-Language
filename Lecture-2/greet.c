@@ -1,7 +1,15 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <string.h>
 
 int main(int argc, string argv[])
 {
-    printf("Hello, %s\n", argv[1]);
+    if (strcmp(argv[1], '-h') == 0)
+    {
+        printf("We are here to help");
+    }
+    else
+    {
+        printf("Hello, world");
+    }
 }
