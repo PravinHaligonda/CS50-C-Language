@@ -5,14 +5,17 @@
 int main(int argc, string argv[])
 {
     int count = (argc - 1);
-    printf("%i\n", count);
-    if (argc >= 2)
+    for (int i = 0; i > count; i++)
     {
-        printf("Hello, %s\n", argv[count]);
+        printf("%i\n", i);
     }
-    else
-    {
-        printf("Hello, world");
-        return 0;
-    }
+    // if (argc >= 2)
+    // {
+    //     printf("Hello, %s\n", argv[count]);
+    // }
+    // else
+    // {
+    //     printf("Hello, world");
+    //     return 0;
+    // }
 }
