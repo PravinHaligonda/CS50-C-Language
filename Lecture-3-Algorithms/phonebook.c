@@ -23,7 +23,6 @@ int main(void)
     people[2].name = "David";
     people[2].number = "6598457823";
 
-    printf("Size%i\n", sizeof(people));
     string name = get_string("Enter the name: ");
 
     for (int i = 0; i < 3; i++)
@@ -35,5 +34,4 @@ int main(void)
         }
     }
     printf("Not found\n");
-
 }
