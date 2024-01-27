@@ -1,16 +1,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(int argv, string argc[])
+int main(void)
 {
-    if (argc == 2 && strcmp(argv[1], "-h") == 0)
-    {
-        printf("Usage: my_program [-h]\n");
-        printf("Prints help information.\n");
-        return 0;
-    }
-    else
-    {
-        printf("Not information)
-    }
+    string name = get_string("What's your name: ");
+    printf("Hello, %s\n", name);
 }
