@@ -23,7 +23,7 @@ int main(void)
     string names[] = {"table", "phone", "laptop", "mouse"};
 
     string input = get_string("Search: ");
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < sizeof(names); i++)
     {
         if (strcmp(names[i], input) == 0)
         {
