@@ -5,7 +5,7 @@
 int main(int argc, string argv[])
 {
     int count = (argc - 1);
-    for (int i = 0; i > count; i++)
+    for (int i = 0; i < count; i++)
     {
         printf("%i\n", i);
     }
