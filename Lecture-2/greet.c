@@ -7,5 +7,10 @@ int main(int argv, string argc[])
     {
         printf("Usage: my_program [-h]\n");
         printf("Prints help information.\n");
+        return 0;
+    }
+    else
+    {
+        printf("Not information)
     }
 }
