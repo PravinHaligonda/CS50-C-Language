@@ -3,6 +3,9 @@
 
 int main(int argv, string argc[])
 {
-    
-    printf("Hello, %s\n", name);
+    if (argc == 2 && strcmp(argv[1], "-h") == 0)
+    {
+        printf("Usage: my_program [-h]\n");
+        printf("Prints help information.\n");
+    }
 }
