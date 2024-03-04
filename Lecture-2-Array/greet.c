@@ -5,12 +5,13 @@
 int main(int argc, string argv[])
 {
 
-    int count = (argc - 1);
+    int count = (argc);
     for (int i = 0; i < count; i++)
     {
         printf("%i\n", i);
+        printf("%s\n", argv[i]);
     }
-    printf(argv[])
+    // printf(argv[])
     // if (argc >= 2)
     // {
     //     printf("Hello, %s\n", argv[count]);
