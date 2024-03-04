@@ -15,11 +15,11 @@ int f(void* thr_data)
 }
 
 int main(void) {
-    thdr_t thr[10];
+    thrd_t thr[10];
     for (int n = 0; n <10; ++n)
-        thdr_create(&thr[n], f, NULL);
+        thrd_create(&thr[n], f, NULL);
     for (int n = 0; n < 10; ++n)
-        thdr_join(thr[n], NULL);
+        thrd_join(thr[n], NULL);
 
     printf("The atomic counter is %u\n", acnt);
     printf("The non-atomic counter is %u\n", cnt);
