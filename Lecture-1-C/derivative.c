@@ -10,7 +10,9 @@ int main(void)
     float x = 3.0;
 
     float func = (f(x + h) - f(x)) / h;
-    printf("f(x + h)=%f\n", func);
+    printf("d/dx of 3*x**2 - 4*x + 5: %f\n", func);
+    printf("where x is %f\n", x);
+    printf("And h is %f\n", h);
 
 }
 
