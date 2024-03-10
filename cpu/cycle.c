@@ -9,6 +9,9 @@ int main(void)
     start_time = clock();
 
     while(1) {
+        for (int i = 0; i < 10; i++) {
+            printf("H");
+        }
         current_time = clock();
         double elapsed_time = (double)(current_time - start_time) / CLOCKS_PER_SEC;
 
