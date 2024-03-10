@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <t
+#include <time.h>
 
 int main(void)
 {
-    for (int i = 0; i < 10; i++){
-        printf("Hello\n");
-    }
+    printf("The time is now %li.\n", time(NULL));
 }
