@@ -9,6 +9,10 @@ int main(void) {
     printf("%i\n", num);
 
     int rand = (random() / ((double) RAND_MAX + 1)) * 100;
-    printf("Random: %i\n", rand);
+
+    if (rand > num)
+    {
+        do 
+    }
 
 }
