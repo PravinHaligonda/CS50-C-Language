@@ -2,6 +2,6 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Guess a number between 1 to 100.");
-    
+    int num = get_int("Guess a number between 1 to 100: ");
+    printf("%i\n", num);
 }
