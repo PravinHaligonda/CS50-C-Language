@@ -12,8 +12,15 @@ int main(void) {
 
     while (rand > num)
     {
-        printf("Too high. %i", rand);
+        printf("Too high. %i\n", rand);
     }
-    
+    while (rand < num)
+    {
+        printf("Too low. %i\n", rand);
+    }
+    if (rand == num)
+    {
+        printf("You guessed Right. %i\n", rand);
+    }
 
 }
