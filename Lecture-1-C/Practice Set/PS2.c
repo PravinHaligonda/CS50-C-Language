@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
+// Fahrenheit to Celcius.
 int main(void) {
 
     printf("Fahrenheit to Celcius.\n");
