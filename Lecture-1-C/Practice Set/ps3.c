@@ -10,17 +10,5 @@ int main(void) {
 
     int rand = (random() / ((double) RAND_MAX + 1)) * 100;
 
-    while (rand > num)
-    {
-        printf("Too high. %i\n", rand);
-    }
-    while (rand < num)
-    {
-        printf("Too low. %i\n", rand);
-    }
-    if (rand == num)
-    {
-        printf("You guessed Right. %i\n", rand);
-    }
-
+    
 }
