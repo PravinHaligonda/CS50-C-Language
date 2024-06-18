@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 int main(void) {
-    while (true) {
+    while (false) {
         printf("Hello.\n");
     }
 }
