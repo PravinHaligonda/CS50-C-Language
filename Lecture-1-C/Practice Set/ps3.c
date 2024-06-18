@@ -10,6 +10,10 @@ int main(void) {
 
     int rand = (random() / ((double) RAND_MAX + 1)) * 100;
 
-    while (rand > )
+    while (rand > num)
+    {
+        printf("Too high. %i", rand);
+    }
+    
 
 }
