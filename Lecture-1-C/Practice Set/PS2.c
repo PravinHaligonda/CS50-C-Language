@@ -5,7 +5,7 @@ int main(void) {
 
     printf("Fahrenheit to Celcius.\n");
 
-    int F = get_int("F:");
+    float F = get_int("F:");
     float out = (F - 32) * 5 / 9;
 
     printf("%f Celcius\n", out);
