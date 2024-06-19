@@ -1,8 +1,16 @@
 #include <stdio.h>
 #include <cs50.h>
 
+void print_col(int height);
+
 int main(void) {
-    for (int i = 0; i < 3; i++) {
+    int h = get_int("Height: ");
+    print_col(h);
+}
+
+void print_col(int height) {
+    for (int i = 0; i <= height; i++)
+    {
         printf("#\n");
     }
 }
