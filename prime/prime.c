@@ -31,8 +31,14 @@ int main(void)
 bool prime(int number)
 {
     // TODO
-    int number;
-    print("Number: ", number);
-    // if (number / 1 == number) && (number / number == 1)
-    return true;
+    // printf("Number: %i\n", number);
+    if (number / 1 == number) && (number / number == 1)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+    
 }
