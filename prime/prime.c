@@ -32,5 +32,6 @@ bool prime(int number)
 {
     // TODO
     int number;
-    
+    if (number / 1 == number) && (number % )
+    return true;
 }
