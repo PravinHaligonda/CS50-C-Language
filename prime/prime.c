@@ -34,7 +34,7 @@ bool prime(int number)
     // printf("Number: %i\n", number);
     if (number / 1 == number && number / number == 1)
     {
-        return true;
+        return number;
     }
     else
     {
