@@ -32,9 +32,9 @@ bool prime(int number)
 {
     // TODO
     // printf("Number: %i\n", number);
-    if (number / 1 == number && number / number == 1)
+    if (number / 1 == number)
     {
-        return number;
+        return true;
     }
     else
     {
