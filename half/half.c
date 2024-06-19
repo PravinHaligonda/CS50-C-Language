@@ -21,6 +21,9 @@ float half(float bill, float tax, int tip)
     // returns half bill
     // after adding tax and tip
 
-    float bill = get_float("Bill before tax and tip: ");
-    
+    float bill_a_tip = (bill / 100) * (float) tip;
+    float bill_a_tax = (bill / 100) * (float) tax;
+    float total = bill_a_tip + bill_a_tax;
+    float half = total / 2.0;
+    return half;
 }
