@@ -18,6 +18,7 @@ int main(void)
 // TODO: Complete the function
 float half(float bill, float tax, int tip)
 {
+
     // returns half bill
     // after adding tax and tip
 
@@ -30,4 +31,5 @@ float half(float bill, float tax, int tip)
     float half = total / 2.0;
     // printf("Half: %f\n", half);
     return half;
+
 }
