@@ -32,6 +32,7 @@ bool prime(int number)
 {
     // TODO
     int number;
-    if (number / 1 == number) && (number % )
+    print("Number: ", number);
+    // if (number / 1 == number) && (number / number == 1)
     return true;
 }
