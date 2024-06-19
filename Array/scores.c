@@ -3,7 +3,8 @@
 
 int main(void) {
 
-    int score[3];
+    const int N = 3;
+    int score[N];
     score[0] = 72;
     score[1] = 73;
     score[2] = 33;
