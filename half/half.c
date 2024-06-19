@@ -25,7 +25,7 @@ float half(float bill, float tax, int tip)
     printf("Bill after tip: %f\n", bill_a_tip);
     float bill_a_tax = (bill / 100) * (float) tax;
     printf("Bill after tax: %f\n", bill_a_tax);
-    float total = bill_a_tip + bill_a_tax;
+    float total = bill_a_tip + bill_a_tax + bill;
     printf("Total: %f\n", total);
     float half = total / 2.0;
     printf("Half: %f\n", half);
