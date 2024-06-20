@@ -19,13 +19,9 @@ int main(void) {
 
     for (int i = min; i <= max; i++)
     {
-        if (i / 1 == i && i / i == 1)
+        if (i / i == 1)
         {
-            printf("%i\n", i);
-        }
-        else
-        {
-            return false;
+            return i;
         }
     }
 }
