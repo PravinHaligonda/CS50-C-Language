@@ -6,6 +6,12 @@ void greet(void) {
 }
 
 int main(int argc, string argv[]) {
-    if (argc == 2)
+    if (argv[1] == "greet"){
+        greet();
+    }
+    else
+    {
+        print("Invalid Command");
+    }
 }
 
