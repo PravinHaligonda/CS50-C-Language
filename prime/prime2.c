@@ -19,7 +19,7 @@ int main(void) {
 
     for (int i = min; i <= max; i++)
     {
-        if (i / )
+        if ()
         {
             return i;
         }
