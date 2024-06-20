@@ -7,7 +7,7 @@ void error_usage(void) {
 
 int main(int argc, string argv[]) {
     if (argc < 4) { printf("%s\n", argv[1]); } else { error_usage(); }
-    for (int i = 2; i < argc; i+=2){
-        if (argv[i][0] != '-') { error_usage(); } else { printf("Hello, World\n"); }
-    }
+    // for (int i = 2; i < argc; i+=2){
+    //     if (argv[i][0] != '-') { error_usage(); } else { printf("Hello, World\n"); }
+    // }
 }
