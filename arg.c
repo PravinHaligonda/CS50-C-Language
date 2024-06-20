@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <string.h>
 
 void error_usage(void) {
     printf("Usage:   run \n");
