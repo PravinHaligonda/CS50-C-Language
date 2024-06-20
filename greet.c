@@ -5,5 +5,5 @@ int main(int argc, string argv[]) {
     string answer = get_string("What's your name? ");
     printf("Hello, %s\n", answer);
     printf("%i\n", argc);
-    printf("%c\n", argv[argc]);
+    printf("%c\n",);
 }
