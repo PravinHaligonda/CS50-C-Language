@@ -6,7 +6,7 @@ void greet(void) {
 }
 
 int main(int argc, string argv[]) {
-    if (argv[1] == "greet"){
+    if (argv[1] == 'g'){
         greet();
     }
     else
