@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void point();
+void starchar(void);
 
 int main(void) {
     int n = 50;
@@ -9,6 +10,7 @@ int main(void) {
     printf("%i\n", *p);
     printf("%p\n", &p);
     point();
+    starchar();
 }
 
 // & is address of
@@ -23,4 +25,14 @@ void point() {
 
     printf("%i\n", *p);
     printf("%p\n", &p);
+}
+
+void starchar(void) {
+    char *name = "HI!";
+    printf("Name %s\n", name);
+    printf("%p\n", &name);
+    printf("%p\n", &name[0]);
+    printf("%p\n", &name[1]);
+    printf("%p\n", &name[2]);
+    printf("%p\n", &name[3]);
 }
