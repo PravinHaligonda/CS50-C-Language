@@ -18,6 +18,8 @@ void point() {
     int s = 3;
     int * p = &s; // Doesn't matter where you put the * (int*, int *, int *n)
     // If you are creating a pointer you have to give the address of that pointer.
+    // pointers tends to use 8 byte memory space.
+    // normal int takes 4 bytes of memory.
 
     printf("%i\n", *p);
     printf("%p\n", &p);
