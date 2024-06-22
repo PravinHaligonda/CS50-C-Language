@@ -2,5 +2,8 @@
 
 int main(void) {
     int n = 50;
-    printf("%i\n", n);
+    printf("%p\n", &n);
 }
+
+// & is address of
+// * is dereference operator (like taken address and go to it.)
