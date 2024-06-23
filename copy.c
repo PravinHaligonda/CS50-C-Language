@@ -8,7 +8,10 @@ int main(void)
     char *s = get_string("s: ");
     char *t = s;
 
-    t[0] = toupper(t[0]);
+    if (strlen(t) > 0)
+    {
+        t[0] = toupper(t[0]);
+    }
 
     printf("%s\n", s);
     printf("%s\n", t);
