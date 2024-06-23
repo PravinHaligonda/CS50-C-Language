@@ -3,5 +3,6 @@
 int main(void) {
     int n;
     printf("n: ");
-    scanf("%i", )
+    scanf("%i", &n);
+    
 }
