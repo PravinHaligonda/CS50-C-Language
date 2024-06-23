@@ -21,5 +21,7 @@ int main(void)
 
     printf("%s\n", s);
     printf("%s\n", t);
+
+    free(t);
 }
 
