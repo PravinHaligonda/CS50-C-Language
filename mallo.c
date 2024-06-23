@@ -2,13 +2,17 @@
 #include <cs50.h>
 #include <string.h>
 #include <ctype.h>
+#include <stdlib.h>
 
-// Buggy
-// Solved in mallo.c
 int main(void)
 {
     char *s = get_string("s: ");
-    char *t = s;
+    char *t = malloc(strlen(s) + 1);
+
+    for (int i = 0, n = strlen(s); i <= n; i++)
+    {
+        s[i] = t[i];
+    }
 
     if (strlen(t) > 0)
     {
