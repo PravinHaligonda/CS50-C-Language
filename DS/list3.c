@@ -5,7 +5,7 @@ int main(void) {
 
     typedef struct node
     {
-        int *n;
-        
-    }
+        int number;
+        struct node *next;
+    } node;
 }
