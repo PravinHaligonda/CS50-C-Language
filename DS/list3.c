@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
             return 1;
         }
         n->number = number;
-        n->next = list
+        n->next = list;
         list = n;
     }
 
