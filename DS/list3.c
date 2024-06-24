@@ -8,4 +8,9 @@ int main(void) {
         int number;
         struct node *next;
     } node;
+
+    node *list = NULL;
+
+    node *n = malloc(sizeof(node));
+    
 }
