@@ -12,7 +12,22 @@ int main(int argc, char *argv[]) {
     node *list = NULL;
 
     for (int i = 1; i < argc; i++){
-        printf("%s\n", argv[i]);
+        int number = atoi(argv[i]);
+        node *n = malloc(sizeof(node));
+        if (n == NULL) {
+            return 1;
+        }
+        n->number = number;
+        n->next = list
+        list = n;
+    }
+
+    // print hole list
+
+    node *ptr = list;
+    while (prt != NULL) {
+        printf("%i\n", ptr->number);
+        ptr = ptr->next;
     }
 
     // node *n = malloc(sizeof(node));
