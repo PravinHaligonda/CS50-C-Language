@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
     // print hole list
 
     node *ptr = list;
-    while (prt != NULL) {
+    while (ptr != NULL) {
         printf("%i\n", ptr->number);
         ptr = ptr->next;
     }
