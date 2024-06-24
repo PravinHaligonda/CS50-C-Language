@@ -17,4 +17,8 @@ int main(void) {
     (*n).next = NULL;
 
     list = n;
+
+    node *n = malloc(sizeof(node));
+    (*n).number = 2;
+    
 }
