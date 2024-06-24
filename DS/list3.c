@@ -22,5 +22,7 @@ int main(void) {
     (*n).number = 2;
     (*n).next = NULL;
 
+    (*n).next = list;
+
     
 }
