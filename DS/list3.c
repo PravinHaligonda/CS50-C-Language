@@ -20,5 +20,7 @@ int main(void) {
 
     node *n = malloc(sizeof(node));
     (*n).number = 2;
+    (*n).next = NULL;
+
     
 }
