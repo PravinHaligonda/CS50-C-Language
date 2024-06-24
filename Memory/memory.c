@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(void)
-{
-    int age;
-    age = 23;
+int main(void) {
 
-    printf("My age is %i\n", age);
-    printf("My age is stored at %p\n", &age);
+    int *x = malloc(3 * sizeof(int));
+    x[0] = 72;
+    x[1] = 73;
+    x[2] = 33;
+    free(x);
 }
