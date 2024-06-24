@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+typedef struct node
+{
+    int number;
+    struct node *next;
+} node;
 
-    typedef struct node
-    {
-        int number;
-        struct node *next;
-    } node;
+int main(int argc, char *argv[]) {
 
     node *list = NULL;
+
+    for (int i = 0;)
 
     node *n = malloc(sizeof(node));
     (*n).number = 1;
@@ -24,5 +26,5 @@ int main(void) {
 
     (*n).next = list;
 
-    
+
 }
