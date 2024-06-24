@@ -12,5 +12,9 @@ int main(void) {
     node *list = NULL;
 
     node *n = malloc(sizeof(node));
-    
+    (*n).number = 1;
+    // n->number = 1;
+    (*n).next = NULL;
+
+    list = n;
 }
