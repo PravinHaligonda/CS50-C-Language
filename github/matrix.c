@@ -11,7 +11,7 @@ int main(void) {
     int column;
 
     for (row = 0; row < 3; row++) {
-        printf("--- row %i ---", row);
+        printf("--- row %i ---\n", row);
         for (column = 0; column < 4; column++) {
             printf("column[%i], value=%i\n", column, grid[row][column]);
         }
