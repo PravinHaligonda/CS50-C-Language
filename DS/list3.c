@@ -11,20 +11,22 @@ int main(int argc, char *argv[]) {
 
     node *list = NULL;
 
-    for (int i = 0;)
+    for (int i = 1; i < argc; i++){
+        printf("%s\n", argv[i]);
+    }
 
-    node *n = malloc(sizeof(node));
-    (*n).number = 1;
-    // n->number = 1;
-    (*n).next = NULL;
+    // node *n = malloc(sizeof(node));
+    // (*n).number = 1;
+    // // n->number = 1;
+    // (*n).next = NULL;
 
-    list = n;
+    // list = n;
 
-    node *n = malloc(sizeof(node));
-    (*n).number = 2;
-    (*n).next = NULL;
+    // node *n = malloc(sizeof(node));
+    // (*n).number = 2;
+    // (*n).next = NULL;
 
-    (*n).next = list;
+    // (*n).next = list;
 
 
 }
