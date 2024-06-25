@@ -1,8 +1,11 @@
 def get_int(prompt):
-    return int(input(prompt))
+    while True:
+        try:
+            return int(input(prompt))
+        except:
+            print("Not an integer")
 
 def main():
-    
     x = get_int("X: ")
     y = get_int("Y: ")
 
