@@ -3,7 +3,7 @@ def get_int(prompt):
         try:
             return int(input(prompt))
         except:
-            print("Not an integer")
+            pass
 
 def main():
     x = get_int("X: ")
