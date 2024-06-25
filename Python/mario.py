@@ -1,7 +1,4 @@
-while True:
-    n = input("Size: ")
-    if n < 0:
-        break
+n = int(input("Size: "))
 
 for i in range(n):
-    print("#")
+    print("#" * n)
