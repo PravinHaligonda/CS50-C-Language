@@ -1,8 +1,8 @@
-name = {"Carter", "David", "John"}
+names = {"Carter", "David", "John"}
 
 name = input("Name: ")
 
-if name in name:
+if name in names:
     print("Found.")
 else:
     print("Not found.")
