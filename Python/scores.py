@@ -1,6 +1,10 @@
+from cs50 import get_int
 
+scores = []
 
-scores = [72, 73, 33]
+for i in range(3):
+    score = get_int(f"scores{i + 1}: ")
+    scores.append(score)
 
 average = sum(scores) / len(scores)
 print("Average: ", average)
