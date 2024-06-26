@@ -7,7 +7,7 @@ people = [
 name = input("Name: ")
 
 for person in people:
-    if people["name"] == name:
+    if person["name"] == name:
         number = person["number"]
         print(f"Found {number}")
         break
